@@ -15,6 +15,12 @@ namespace StarterWFApps.FirstApp
         public Form1()
         {
             InitializeComponent();
+            InitUser();
+        }
+
+        private void InitUser()
+        {
+            this.Text = Properties.Settings.Default.Title;
         }
     }
 }
