@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="StarterWFApps.FirstApp/StarterWFApps.FirstApp.csproj" />
+  <Project Path="StarterWFApps.UselessBox/StarterWFApps.UselessBox.csproj" />
 </Solution>
