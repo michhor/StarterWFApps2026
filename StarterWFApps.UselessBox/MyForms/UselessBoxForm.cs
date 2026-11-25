@@ -26,7 +26,13 @@ namespace StarterWFApps.UselessBox.MyForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            var result = MessageBox.Show("Czy jesteś pewien że chcesz zamknąć aplikację?",
+                "Ważne pytanie",
+                MessageBoxButtons.YesNoCancel,
+                MessageBoxIcon.Question);
+
+            if( result == DialogResult.Yes )
+                Application.Exit();
         }
     }
 }
